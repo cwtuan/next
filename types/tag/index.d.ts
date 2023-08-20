@@ -18,7 +18,7 @@ export interface CloseableProps extends HTMLAttributesWeak, CommonProps {
     /**
      * 点击关闭按钮时的回调
      */
-    onClose?: (from: string) => boolean;
+    onClose?: (from?: string) => boolean;
 
     /**
      * 标签关闭后执行的回调
